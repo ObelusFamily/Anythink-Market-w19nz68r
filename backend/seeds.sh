@@ -1,3 +1,3 @@
-#!/bin/bash
-export PATH="/usr/src/backend:$PATH"
+#!/bin/sh
+
 python3 ./app/db/seeds.py

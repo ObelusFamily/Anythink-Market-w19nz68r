@@ -25,7 +25,7 @@ async def seed():
     users_repo = UsersRepository(conn)
     comments_repo = CommentsRepository(conn)
 
-    for i in range(2, 102):
+    for i in range(0, 100):
         user = await users_repo.create_user(
             **{
                 "username": f"user-{i}",
